@@ -1,0 +1,2 @@
+.my_input:focus{box-shadow:0 0 0 0 #000;}
+.breadcrumb-item+.breadcrumb-item::before{content:"|";}

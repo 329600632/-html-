@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>手风琴效果</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h4>手风琴效果</h4>
+    <div id="aaa">
+        <div class="card">
+            <div class="card-header">
+                <a data-toggle="collapse" href="#c1">亮哥的特点</a>
+            </div>
+            <div data-parent="#aaa" id="c1" class="collapse">
+                <div class="card-body">发际线高出天际</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a data-toggle="collapse" href="#ym">一米司机的特点</a>
+            </div>
+            <div data-parent="#aaa" id="ym" class="collapse">
+                <div class="card-body">
+                    删亮亮注释，给亮哥买早点
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a data-toggle="collapse" href="#rr">然桑的特点</a>
+            </div>
+            <div data-parent="#aaa" id="rr" class="collapse">
+                <div class="card-body">
+                    玩单杠的时候吃着煎饼，最后return
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

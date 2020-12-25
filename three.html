@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{margin:0;padding:0;box-sizing:border-box;}
+        #content{
+            width:80%;margin:0 auto;
+            border:1px solid #000;
+            display:flex;
+            flex-wrap:wrap;
+        }
+        #content>div{border:1px solid #000;}
+        #d2>div{
+            display:flex;
+            flex-wrap:wrap;
+        }
+        #d2>div img{width:100%;}
+        ul{list-style:none;}
+        li{border:3px solid purple;}
+        @media(min-width:576px){
+            #d1,#d2,#d3{
+                flex:0 0 100%;
+            }
+            #d2>div>div{
+                flex:0 0 50%;
+                padding:4px;
+            }
+        }
+        @media(min-width:992px){
+            #d1{
+                flex:0 0 20%;
+            }
+            #d2{
+                flex:0 0 80%;
+            }
+            #d3{
+                display:none;
+            }
+            #d2>div>div{
+                flex:0 0 25%;
+                padding:4px;
+            }
+        }
+        @media(min-width:1200px){
+            #d1{flex:0 0 20%;}
+            #d2{flex:0 0 60%;}
+            #d3{flex:0 0 20%;display:block;}
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <div id="d1">
+        <ul>
+            <li><a href="#">豆蔻年华</a></li>
+            <li><a href="#">豆蔻年华</a></li>
+            <li><a href="#">豆蔻年华</a></li>
+            <li><a href="#">豆蔻年华</a></li>
+        </ul>
+    </div>
+    <div id="d2">
+        <div>
+            <div><img src="img/boot-1.png"></div>
+            <div><img src="img/boot-2.png"></div>
+            <div><img src="img/boot-3.png"></div>
+            <div><img src="img/boot-4.png"></div>
+        </div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt error exercitationem iusto
+            nostrum voluptate. Alias asperiores atque culpa eius eos facere, fuga illo ipsum molestiae nisi, odio
+            similique suscipit.
+        </div>
+        <div>At atque facilis vero? Assumenda at, consequuntur cum eaque eius enim explicabo facere fugit illo impedit
+            ipsa laudantium libero magni maxime, modi molestiae nisi nulla optio repellendus, saepe unde voluptate.
+        </div>
+        <div>A adipisci alias atque corporis cumque delectus dolores dolorum eligendi excepturi explicabo facilis
+            incidunt ipsam itaque laudantium libero nam nulla numquam porro quibusdam repudiandae tempore, unde ut
+            voluptas voluptatem voluptates!
+        </div>
+        <div>Adipisci amet assumenda culpa ducimus, enim hic id labore libero maiores maxime minima natus nesciunt nisi
+            non odio odit officia omnis, possimus quod ratione saepe sunt temporibus ut veniam voluptate!
+        </div>
+        <div>Alias aliquid dolor dolore ducimus eligendi, facere fugiat illum iste, magni modi natus nemo nesciunt
+            perferendis quo unde vitae voluptatibus. Aliquam ea eaque enim et ipsa itaque nihil odio rerum.
+        </div>
+        <div>Accusamus aliquid amet animi aspernatur aut cumque deserunt dolor enim, eveniet fugiat illo ipsum modi
+            molestiae molestias mollitia qui tempore tenetur veritatis. Cupiditate ducimus eum maiores perferendis quo.
+            Maxime, quos.
+        </div>
+        <div>Illo ipsa omnis optio! Animi assumenda deserunt eius est eveniet inventore iusto minima molestias nesciunt
+            nisi, non officiis perferendis quaerat quas qui repellat reprehenderit, saepe sed tempore voluptate
+            voluptates voluptatibus!
+        </div>
+        <div>Ab ad aut culpa dolores dolorum eius excepturi, laudantium magni minima natus necessitatibus, optio
+            voluptas voluptatibus? Autem dicta dolorum eligendi exercitationem facilis ipsa ipsum, minima mollitia
+            reiciendis sed totam vitae.
+        </div>
+        <div>A, culpa earum eveniet id minus molestias nulla porro quidem sed totam. At, atque doloribus eaque laborum
+            laudantium molestiae non suscipit! Accusamus consequuntur cumque deserunt, eligendi ex impedit labore
+            placeat.
+        </div>
+        <div>A aperiam assumenda at, necessitatibus possimus quidem quis quisquam ratione. Architecto commodi, dolorem
+            fugit harum impedit magnam maiores nam nostrum quibusdam quis repellat similique sint veritatis voluptas
+            voluptatum. Accusamus, numquam.
+        </div>
+    </div>
+    <div id="d3">
+        右侧广告<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis distinctio, ea eveniet illo illum
+            inventore laudantium magnam officia possimus provident reiciendis repudiandae rerum sequi sint, vel
+            veritatis. Distinctio, ipsa.
+        </div>
+        <div>Aliquam aspernatur at debitis ea esse excepturi, harum hic id illo in ipsa minima mollitia nemo, odit optio
+            quisquam ratione sapiente sed similique soluta suscipit tempore temporibus vel velit vitae.
+        </div>
+        <div>Ab aperiam aut dolore, error natus nemo praesentium quasi quo quos. Amet debitis, exercitationem itaque
+            modi molestiae molestias nemo nesciunt non odio perspiciatis quas quidem reiciendis sapiente sunt ut vero?
+        </div>
+        <div>Eaque in iste quod. Ab ad aperiam beatae consectetur distinctio, earum expedita, magni modi necessitatibus
+            non numquam obcaecati omnis optio possimus quam quos repellendus similique sit sunt tenetur unde velit.
+        </div>
+        <div>Aut et, excepturi id necessitatibus possimus quaerat quia sapiente sed, sit sunt tempora tenetur
+            voluptatibus! Adipisci, cupiditate distinctio ea, exercitationem, laudantium quam repellat reprehenderit
+            sequi vero voluptatem voluptates voluptatum. Aut?
+        </div>
+        <div>Corporis cupiditate debitis et mollitia perferendis? Dolorem eos facere itaque laudantium minus nemo quia
+            repellendus sequi velit voluptatibus. Aspernatur consequuntur cumque facilis illo ipsum quis quo suscipit
+            voluptas. Nobis, vero.
+        </div>
+        <div>Alias, aliquid architecto commodi, illo iusto maiores molestias natus omnis quibusdam rem sint ut
+            voluptatem. Architecto deserunt dolor ea eveniet in ipsam magni molestias, nihil omnis, repellat veniam
+            veritatis vitae.
+        </div>
+        <div>Deserunt distinctio dolorem ea eum excepturi harum nesciunt porro quod? Alias atque autem cum, debitis ea
+            eligendi, eum ex, fugit ipsa iusto nesciunt perferendis placeat sit veniam veritatis voluptatem voluptates!
+        </div>
+        <div>Aliquam dignissimos, id minima modi non quae repellendus ut. A asperiores beatae consectetur cupiditate et
+            eveniet fugit ipsum iure minima minus nisi officia officiis optio, perferendis quibusdam suscipit ut! Quod!
+        </div>
+        <div>Deleniti labore obcaecati voluptatem. Ab aperiam corporis culpa cumque deleniti dicta dignissimos earum
+            excepturi expedita, hic inventore, ipsam maxime minima modi nobis officiis, quaerat quo recusandae rem saepe
+            totam veniam?
+        </div>
+    </div>
+</div>
+</body>
+</html>

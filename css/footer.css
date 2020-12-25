@@ -1,0 +1,17 @@
+
+.font-sm{font-size:0.8rem;}
+.w-35{width:35%;}
+.w-85{width:85%;}
+@media(min-width:576px){
+    .my_text{font-size:36px;}
+    .my_img{width:100%;}
+}
+@media(min-width:768px){
+    .my_text{font-size:36px;}
+    .my_img{width:100%;}
+}
+
+@media (min-width:992px) {
+    .my_text{font-size:0.8rem;}
+    .my_img{width:85%}
+}

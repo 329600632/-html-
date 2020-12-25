@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scaled=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h4>折叠导航栏</h4>
+    <div class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <!--不折叠的a标签-->
+        <a class="navbar-brand" href="#">Bootstrap中文网</a>
+        <!--大屏隐藏，小屏显示的按钮-->
+        <button data-target="#d1" data-toggle="collapse" class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--大屏横向显示，小屏纵向隐藏-->
+        <div id="d1" class="collapse navbar-collapse">
+            <ul class="navbar-nav" >
+                <li class="nav-item"><a class="nav-link" href="#">Boot3教程</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Boot4教程</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">scss教程</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">less教程</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">网站实例</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #d1>div{
+            border:2px solid #f00;
+            display:flex;
+            box-sizing:border-box;
+        }
+        #d1{
+            display:flex;
+            flex-wrap:wrap;
+        }
+        @media(min-width:576px){
+            #d1>>div{flex:0 0 100%}
+        }
+        @media(min-width: 768px){
+            #d1>div{flex:0 0 50%;}
+        }
+        @media(min-width:992px){
+            #d1>div{flex:0 0 33.3333333333%;}
+        }
+        @media(min-width:1200px){
+            #d1>div{flex:0 0 25%}
+        }
+    </style>
+</head>
+<body>
+<div id="d1">
+    <div>11</div>
+    <div>22</div>
+    <div>33</div>
+    <div>44</div>
+</div>
+</body>
+</html>

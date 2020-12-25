@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style type="text/css">
+        *{margin:0;padding:0;}
+        ul.container{
+            width:1004px;
+            background:#e8e8e8;
+            margin:0 auto;
+            color:#666;font-size:12px;
+            text-align:center;
+            display:flex;/*这个用来做弹性布局*/
+            justify-content:space-around;/*弹性布局的排列*/
+            list-style:none;
+            padding:20px 0;
+        }
+        li.row{
+            width:65px;
+        }
+        a{
+            list-style-type:none;
+        }
+        body{
+            background: #e8e8e8;
+        }
+        .font-sm{font-size:0.8rem;}
+        .w-35{width:35%;}
+        .w-85{width:85%;}
+        @media(min-width:576px){
+            .my_text{
+                font-size:36px;
+            }
+            .my_img{
+                width:120%;
+            }
+        }
+        @media(min-width:768px){
+            .my_text{font-size:36px;width:120%;}
+        }
+        @media(min-width:992px){
+            .my_text{
+                font-size: 0.8rem;width:85%;
+            }
+            .my_img{width:85%;}
+        }
+    </style>
+</head>
+<body>
+<ul class="container">
+    <li class="row">
+        <img src="img/icon1.png">
+        <p>品质保障</p>
+    </li>
+    <li class="row">
+        <img src="img/icon2.png">
+        <p>私人定制</p>
+    </li>
+    <li class="row">
+        <img src="img/icon3.png">
+        <p>学员特供</p>
+    </li>
+    <li class="row">
+        <img src="img/icon4.png">
+        <p>专属特权</p>
+    </li>
+</ul>
+<div class="container-fluid bg-white mt-5">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-lg-4 mb-sm-5 mb-lg-0 text-md-center text-lg-left">
+                <img src="img/logo.png" alt="">
+                <img src="img/footerFont.png" alt="">
+            </div>
+            <div class="col-sm-12 col-lg-4 mb-sm-5 mb-lg-0">
+                <div class="row no-gutters text-center">
+                    <ul class="col-4 list-unstyled">
+                        <li><a class="text-dark" href="#">买家帮助</a></li>
+                        <li><a class="text-muted font-sm" href="#">新手指南</a></li>
+                        <li><a class="text-muted font-sm" href="#">服务保障</a></li>
+                        <li><a class="text-muted font-sm" href="#">常见问题</a></li>
+                    </ul>
+                    <ul class="col-4 list-unstyled">
+                        <li><a class="text-dark" href="#">买家帮助</a></li>
+                        <li><a class="text-muted font-sm" href="#">新手指南</a></li>
+                        <li><a class="text-muted font-sm" href="#">服务保障</a></li>
+                        <li><a class="text-muted font-sm" href="#">常见问题</a></li>
+                    </ul>
+                    <ul class="col-4 list-unstyled">
+                        <li><a class="text-dark" href="#">买家帮助</a></li>
+                        <li><a class="text-muted font-sm" href="#">新手指南</a></li>
+                        <li><a class="text-muted font-sm" href="#">服务保障</a></li>
+                        <li><a class="text-muted font-sm" href="#">常见问题</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <div class="d-flex justify-content-center">
+                    <div class="w-50 pl-lg-5 text-center">
+                        <p class="my_text mb-2 text-center">学子商城客户端</p>
+                        <a href="#"><img class="w-100" src="img/android.png"></a>
+                        <a href="#"><img class="mt-2 w-100" src="img/ios.png"></a>
+                    </div>
+                    <div class="w-35">
+                        <img class="my_img" src="img/erweima.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
